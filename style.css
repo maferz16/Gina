@@ -1,0 +1,134 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgba(65, 64, 64, 0.938);
+}
+
+.navegacion{
+    display: flex;
+    background-color: #292A2A;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    margin: 0%;
+}
+
+.linkNavegacion{
+    font-size: 20px;
+}
+
+
+.navegacion span a{
+    color: silver;
+    text-decoration: solid;
+}
+
+.navegacion span{
+   text-align: center;
+}
+
+.navegacion span a:hover{
+    background-color: #e0a80d;
+    width: 100%;
+}
+
+.titulos{
+    color: #e0a80d;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+}
+
+.sudtitulos{
+    color: #e0a80d;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+.textos{
+    color: silver;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 1%;
+    display: flex;
+}
+
+.cuerpo{
+    background-color: blanchedalmond;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contenido{
+    background-color: #2b2c2c;
+    width: 30%;
+    padding: 2%;
+}
+
+.contenido-2{
+    background-color: #2b2c2c;
+    width: 70%;
+    padding :2%;
+}
+
+.contenido-3{
+    background-color: #292A2A;
+    width: 30%;
+    padding: 2%;
+}
+
+.foto img{
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.informacion{
+    background-color: #2d2e2e;
+    width: 70%;
+    padding :2%;
+}
+
+.habilidades img{
+    background-size: contain;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+}
+
+.organizacionHabilidades{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacion-2{
+    background-color: #2d2e2e;
+    width: 30%;
+    padding: 2%;
+}
+
+.contactos{
+    margin :2px;
+    flex-direction: row;
+    display: flex;
+}
+
+.icons{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end; 
+} 
+
+.buttonIcons{
+    width: 10%;
+    display: block;
+    font-size: 10%;
+    text-decoration: none;
+    color: #e0a80d;
+    cursor: pointer;
+}
